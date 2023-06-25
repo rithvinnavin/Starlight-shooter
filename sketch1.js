@@ -93,7 +93,7 @@ function setup() {
     player.addImage(playerimg)
     player.scale = 0.075
     player.visible = false
-    player.debug = true
+   // player.debug = true
     //player missile
     // playermissile=createSprite(width)
 
@@ -451,7 +451,7 @@ function spawnEnemiesLevel1() {
         enemy1.scale = 0.25
         enemy1.visible = false
         enemy1.addImage(e2)
-        enemy1.debug=true
+       // enemy1.debug=true
 
 
         var randX2 = Math.round(random(50, width - 50))
@@ -460,7 +460,7 @@ function spawnEnemiesLevel1() {
         enemy2.scale = 0.25
         enemy2.visible = false
         enemy2.addImage(e3)
-        enemy2.debug=true
+        //enemy2.debug=true
 
 
 
@@ -588,7 +588,7 @@ function movement() {
 
         playermissile = createSprite(player.x, player.y)
         playermissile.addImage(playermissileimg)
-        playermissile.debug=true
+       // playermissile.debug=true
         playermissile.velocityY = -6
         playermissile.scale = 0.35
         playermissileGroup.add(playermissile)
